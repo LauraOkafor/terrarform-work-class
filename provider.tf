@@ -9,9 +9,9 @@ terraform {
   required_version = ">= 1.2.0"
 
   backend "s3" {
-    bucket = "keneji"
+    bucket = "mmesoma"
     key    = "my-back"
-    region = "eu-north-1"
+    region = "us-east-1"
   }
 
 }
