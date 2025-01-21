@@ -8,5 +8,7 @@ variable "instance_type" {
   type        = string
 }
 
-#variable "region" {
-#
+variable "region" {
+  description = "region name"
+  type        = string
+}
