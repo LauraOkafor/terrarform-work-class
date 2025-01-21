@@ -7,4 +7,4 @@ env/
 file.py
 maim.md
 terraform.tfstate.backup
-laura.tfvars
+*.tfvars

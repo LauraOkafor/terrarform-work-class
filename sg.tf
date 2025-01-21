@@ -1,5 +1,5 @@
-resource "aws_security_group" "web_sg2" {
-  name        = "web-sg2"
+resource "aws_security_group" "webtest_sg2" {
+  name        = "webtest-sg2"
   description = "Security group for static website"
 
   ingress {
