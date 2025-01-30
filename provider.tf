@@ -8,13 +8,17 @@ terraform {
 
   required_version = ">= 1.2.0"
 
-  backend "s3" {
-    bucket = "mmesoma"
-    key    = "my-back"
-    region = "us-east-1"
-  }
+  cloud {
 
+    organization = "Lauratest223"
+
+    workspaces {
+      name = "test"
+    }
+  }
 }
+
+
 
 provider "aws" {
   region = "us-east-1"
